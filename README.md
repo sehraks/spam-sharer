@@ -6,10 +6,7 @@
   <p align="center">
     An advanced tool for spam sharing.
     <br/>
-    <a href="https://www.facebook.com/sehraks"><strong>DM me on Facebook for questions »</strong></a>
-    <br/>
-    <a href="https://github.com/sehraks/spam-sharer/issues"><strong>Or open an issue on GitHub »</strong></a>
-    <br/>
+    <a href="https://www.facebook.com/sehraks"><strong>DM me on Facebook for questions</strong></a>
     <br/>
   </p>
 

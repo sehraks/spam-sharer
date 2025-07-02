@@ -4,7 +4,8 @@
   <h3 align="center">SPAM SHARER</h3>
 
   <p align="center">
-    An advanced tool for efficient spam sharing.
+    An advanced tool for
+    efficient spam sharing.
     <br/>
     <a href="https://www.facebook.com/sehraks"><strong>DM me on Facebook for questions »</strong></a>
     <br/>

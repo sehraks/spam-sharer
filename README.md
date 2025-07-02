@@ -5,13 +5,13 @@
   <br />
   <br />
   <a href="https://t.me/sehraks">
-    <img src="https://img.shields.io/badge/Contact-Cerax-24A1DE?style=plastic&cacheSeconds=3600&logo=telegram&logoColor=white" alt="Telegram Contact Badge" />
+    <img src="https://img.shields.io/badge/Contact-Cerax-24A1DE?style=flat-square&cacheSeconds=3600&logo=telegram&logoColor=white" alt="Telegram Contact Badge" />
   </a>
   <a href="https://www.facebook.com/100033379733340">   
-    <img src="https://img.shields.io/badge/Contact-Cerax-4267B2?style=plastic&cacheSeconds=3600&logo=facebook&logoColor=white&labelColor=4267B2&color=4267B2" alt="Facebook" />
+    <img src="https://img.shields.io/badge/Contact-Cerax-4267B2?style=flat-square&cacheSeconds=3600&logo=facebook&logoColor=white&labelColor=4267B2&color=4267B2" alt="Facebook" />
   </a>
-  <img src="https://img.shields.io/badge/Python-3.10+-FFD43B?style=plastic&cacheSeconds=3600&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Version-1.0-808080?style=plastic&cacheSeconds=3600&logo=powershell&logoColor=white" alt="Version" />
+  <img src="https://img.shields.io/badge/Python-3.10+-FFD43B?style=flat-square&cacheSeconds=3600&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Version-1.0-808080?style=flat-square&cacheSeconds=3600&logo=info&logoColor=white" alt="Version" />
 </p>
 
 <p align="center">

@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Contact-Cerax-4267B2?style=plastic&cacheSeconds=3600&logo=facebook&logoColor=white&labelColor=4267B2&color=4267B2" alt="Facebook" />
   </a>
   <img src="https://img.shields.io/badge/Python-3.10+-FFD43B?style=plastic&cacheSeconds=3600&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Version-1.0-24A1DE?style=plastic&cacheSeconds=3600" alt="Version" />
+  <img src="https://img.shields.io/badge/Version-1.0-808080?style=plastic&cacheSeconds=3600&logo=powershell&logoColor=white" alt="Version" />
 </p>
 
 <p align="center">

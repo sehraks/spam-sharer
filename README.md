@@ -43,6 +43,9 @@ The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent u
     ```  
   - **Appstate JSON Import**: Paste your JSON in `/storage/emulated/0/Spam-Sharer/private/appstate.json`.
 
+- **Multiple Supported URLs**  
+  Seamlessly supports a variety of URLs, including video links, group posts, and other shareable content, enabling versatile sharing across different platforms and formats for enhanced flexibility.
+
 - **More to Come**  
   Exciting updates and features are in the pipeline—stay tuned!
 

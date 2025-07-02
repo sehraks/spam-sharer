@@ -6,13 +6,17 @@
   <p align="center">
     An advanced tool for efficient spam sharing.
     <br/>
-    <a href="https://www.facebook.com/sehraks"><strong>DM me on Facebook for questions »</strong></a>
+    <a href="https://www.facebook.com/sehrakss"><strong>DM me on Facebook for questions »</strong></a>
     <br/>
     <a href="https://github.com/sehraks/spam-sharer/issues"><strong>Or open an issue on GitHub »</strong></a>
     <br/>
     <br/>
   </p>
 </div>
+
+## Developer’s Note
+
+The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent unauthorized misuse or modification. I, Cerax, assure you that this tool is designed with user safety in mind. **No cookies, appstate data, or any personal information is sent to any server.** All account data is stored locally in the `storage/` directory (e.g., `storage/accounts.json`, `storage/current_account.json`, `storage/data/spam_sharing/data.json`), which is protected by `.gitignore` to ensure it remains on your device and is not uploaded to GitHub or elsewhere. The tool operates offline for sensitive operations like cookie handling, and features like clipboard copying (via Termux:API) are purely local. My goal is to provide a reliable and secure tool for efficient sharing, and I’m committed to transparency. If you have concerns or questions, feel free to DM me on Facebook or open a GitHub issue!
 
 ## Features
 
@@ -21,6 +25,7 @@
 
 - **Accounts Management**:
   - Add and manage multiple accounts to maintain functionality even if a cookie gets restricted, providing flexibility and reliability.
+  - Copy cookie strings to the clipboard for easy management (requires Termux:API).
 
 - **Cookie String and Appstate (JSON) Supported**:
   - Add accounts using a cookie string or by importing an appstate JSON file.
@@ -38,14 +43,14 @@
 
 Follow these steps to set up and run Spam-Sharer in Termux:
 
-1. **Install Termux**:
-   - Download Termux from the Google Play Store or F-Droid.
+1. **Install Termux and Termux:API App**:
+   - Download **Termux** and **Termux:API** from the Google Play Store or F-Droid.
 
 2. **Update Termux and Install Dependencies**:
-   - Update the package manager and install Git and Python:
+   - Update the package manager and install Git, Python, and Termux:API:
      ```bash
      pkg update && pkg upgrade
-     pkg install git python
+     pkg install git python termux-api
      ```
 
 3. **Grant Storage Permissions**:
@@ -114,7 +119,7 @@ To run Spam-Sharer with a simple `fbs` command from any directory, set up an ali
 ## Usage
 
 - On first run, select **Option 3 (Update)** to check for updates (required before other options).
-- Use **Option 1 (Accounts Management)** to add accounts via cookie strings or appstate JSON.
+- Use **Option 1 (Accounts Management)** to add accounts via cookie strings or appstate JSON, or copy/switch accounts.
 - Use **Option 2 (Spam Share)** to perform sharing tasks.
 - Select **Option 4 (Exit)** to close the tool.
 - Account data is saved in the `storage/` directory and protected from updates.
@@ -123,6 +128,7 @@ To run Spam-Sharer with a simple `fbs` command from any directory, set up an ali
 
 - **Run from Correct Directory**: Always run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`), unless using the `fbs` alias.
 - **Account Data**: Stored in `storage/accounts.json`, `storage/current_account.json`, and `storage/data/spam_sharing/data.json`, which are ignored by Git to prevent overwriting during updates.
+- **Clipboard Feature**: Copying cookies requires the Termux:API app and package (`pkg install termux-api`).
 - **Troubleshooting**:
   - If `pip install -r requirements.txt` fails, update pip:
     ```bash
@@ -133,11 +139,12 @@ To run Spam-Sharer with a simple `fbs` command from any directory, set up an ali
     ```bash
     echo "storage/" > .gitignore
     ```
+  - If the `fbs` alias fails, ensure `~/.bashrc` includes the correct path and reload it (`source ~/.bashrc`).
   - For other issues, open a GitHub issue or DM on Facebook.
 
 ## Requirements
 
-See `requirements.txt` for dependencies:
+See `requirements.txt` for Python dependencies:
 - `rich>=13.7.1`
 - `aiohttp>=3.9.5`
 - `fake-useragent>=1.5.1`

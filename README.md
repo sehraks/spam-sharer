@@ -1,25 +1,23 @@
-<div align="center">
+<h1 align="center">SPAM SHARER</h1>
 
-  <h1 align="center">SPAM SHARER</h1>
+<p align="center">
+  A powerful, secure tool for advanced spam sharing on Meta platforms.
+  <br />
+  <br />
+  <a href="https://t.me/sehraks">
+    <img src="https://img.shields.io/badge/Contact-Cerax-24A1DE?style=plastic&cacheSeconds=3600" alt="Telegram Contact Badge" />
+  </a>
+  <a href="https://www.facebook.com/100033379733340">   
+    <img src="https://img.shields.io/badge/Contact-Cerax-4267B2?style=plastic&cacheSeconds=3600" alt="Facebook" />
+  </a>
+  <img src="https://img.shields.io/badge/Python-3.10+-FFD43B?style=plastic&cacheSeconds=3600" alt="Python" />
+  <img src="https://img.shields.io/badge/Version-1.0-24A1DE?style=plastic&cacheSeconds=3600" alt="Version" />
+</p>
 
-  <p align="center">
-    A powerful, secure tool for advanced spam sharing on Meta platforms.
-    <br />
-    <br />
-    <a href="https://www.facebook.com/100033379733340">
-      <img src="https://img.shields.io/badge/Contact-Cerax-blue?style=flat&logo=facebook" alt="Facebook" />
-    </a>
-    <a href="#">
-      <img src="https://img.shields.io/badge/Python-3.10+-yellow?style=flat&logo=python" alt="Python" />
-    </a>
-      <img src="https://img.shields.io/badge/Version-1.0-blue?style=flat" alt="Version" />
-
-  <p align="center">
-    <img src="https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot1.jpg" alt="Accounts Management" width="45%" />
-    <img src="https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot2.jpg" alt="Spam Sharing Process" width="45%" />
-  </p>
-
-</div>
+<p align="center">
+  <img src="https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot1.jpg" alt="Accounts Management" width="45%" />
+  <img src="https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot2.jpg" alt="Spam Sharing Process" width="45%" />
+</p>
 
 ## Developer’s Note
 

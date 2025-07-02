@@ -15,7 +15,6 @@
 
   | ![Spam-Sharer Accounts Management](https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot1.jpg) | ![Spam-Sharer Spam Sharing Process](https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot2.jpg) |
   |:--:|:--:|
-  | *Accounts Management interface* | *Spam Sharing interface* |
 
 </div>
 

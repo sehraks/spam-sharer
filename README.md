@@ -29,7 +29,7 @@ The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent u
 - **Offline operations**: Sensitive tasks like cookie handling are performed locally.
 - **Clipboard functionality**: Features like copying cookies (via Termux:API) are entirely local.
 
-## ✨ Features
+## Features
 
 - **Advanced User-Agent Rotation**  
   Uses `fake-useragent` to generate random user agents, evading detection on Meta platforms for smooth operation.

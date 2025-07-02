@@ -1,7 +1,6 @@
 <div align="center">
 
   <h1 align="center">SPAM SHARER</h1>
-  <img src="https://img.shields.io/badge/Version-1.0-blue?style=flat" alt="Version" />
 
   <p align="center">
     A powerful, secure tool for advanced spam sharing on Meta platforms.
@@ -13,6 +12,7 @@
     <a href="#">
       <img src="https://img.shields.io/badge/Python-3.10+-yellow?style=flat&logo=python" alt="Python" />
     </a>
+      <img src="https://img.shields.io/badge/Version-1.0-blue?style=flat" alt="Version" />
 
   <p align="center">
     <img src="https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot1.jpg" alt="Accounts Management" width="45%" />

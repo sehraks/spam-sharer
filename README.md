@@ -13,11 +13,9 @@
     <br/>
   </p>
 
-  ![Spam-Sharer Main Menu](https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot1.jpg)
-  *Main menu of Spam-Sharer, showing options for Accounts Management, Spam Share, Update, and Exit.*
-
-  ![Spam-Sharer Accounts Management](https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot2.jpg)
-  *Accounts Management interface, allowing users to add, copy, or switch accounts.*
+  | ![Spam-Sharer Accounts Management](https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot1.jpg) | ![Spam-Sharer Spam Sharing Process](https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot2.jpg) |
+  |:--:|:--:|
+  | *Accounts Management interface, allowing users to copy, or switch accounts.* | *Spam Sharing process, performing automated content sharing tasks.* |
 
 </div>
 
@@ -28,8 +26,6 @@ The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent u
 No cookies, appstate data, or any personal information is sent to any server. All account data is stored locally in the `storage/` directory (e.g., `storage/accounts.json`, `storage/current_account.json`, `storage/data/spam_sharing/data.json`), which is protected by `.gitignore` to ensure it remains on your device and is not uploaded to GitHub or elsewhere.
 
 The tool operates offline for sensitive operations like cookie handling, and features like clipboard copying (via Termux:API) are purely local.
-
-My goal with `Spam-Sharer` is to provide a reliable, user-friendly tool for efficient content sharing, built with transparency and security at its core. I value your trust and welcome feedback to improve the tool—whether through new features, clearer documentation, or addressing concerns. Feel free to reach out via Facebook or GitHub Issues to share your thoughts or report issues, and I’ll work to ensure `Spam-Sharer` remains a safe and effective solution for all users!
 
 ## Features
 
@@ -42,7 +38,7 @@ My goal with `Spam-Sharer` is to provide a reliable, user-friendly tool for effi
 
 - **Cookie String and Appstate (JSON) Supported**:
   - Add accounts using a cookie string or by importing an appstate JSON file.
-  - **Cookie String Example**
+  - **Cookie String Example** (structure only):
     ```
     datr=xxxx; sb=xxxx; m_pixel_ratio=3; vpd=xxxx; x-referer=xxxx; ps_l=1; ps_n=1; wd=360x820; c_user=xxxx; xs=xxxx; fr=xxxx; locale=en_US; fbl_st=xxxx; wl_cbv=xxxx
     ```

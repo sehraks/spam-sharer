@@ -6,7 +6,7 @@
   <p align="center">
     An advanced tool for efficient spam sharing.
     <br/>
-    <a href="https://www.facebook.com/sehrakss"><strong>DM me on Facebook for questions »</strong></a>
+    <a href="https://www.facebook.com/sehraks"><strong>DM me on Facebook for questions »</strong></a>
     <br/>
     <a href="https://github.com/sehraks/spam-sharer/issues"><strong>Or open an issue on GitHub »</strong></a>
     <br/>
@@ -16,7 +16,11 @@
 
 ## Developer’s Note
 
-The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent unauthorized misuse or modification. I, Cerax, assure you that this tool is designed with user safety in mind. **No cookies, appstate data, or any personal information is sent to any server.** All account data is stored locally in the `storage/` directory (e.g., `storage/accounts.json`, `storage/current_account.json`, `storage/data/spam_sharing/data.json`), which is protected by `.gitignore` to ensure it remains on your device and is not uploaded to GitHub or elsewhere. The tool operates offline for sensitive operations like cookie handling, and features like clipboard copying (via Termux:API) are purely local. My goal is to provide a reliable and secure tool for efficient sharing, and I’m committed to transparency. If you have concerns or questions, feel free to DM me on Facebook or open a GitHub issue!
+The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent unauthorized misuse or modification. I, Cerax, assure you that this tool is designed with user safety in mind.
+
+**No cookies, appstate data, or any personal information is sent to any server.** All account data is stored locally in the `storage/` directory (e.g., `storage/accounts.json`, `storage/current_account.json`, `storage/data/spam_sharing/data.json`), which is protected by `.gitignore` to ensure it remains on your device and is not uploaded to GitHub or elsewhere.
+
+The tool operates offline for sensitive operations like cookie handling, and features like clipboard copying (via Termux:API) are purely local.
 
 ## Features
 

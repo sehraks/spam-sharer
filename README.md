@@ -1,7 +1,7 @@
 <h1 align="center">SPAM SHARER</h1>
 
 <p align="center">
-  A powerful, secure tool for advanced spam sharing on Meta platforms.
+  A powerful, secure tool for advanced spam sharing on Facebook platform.
   <br />
   <br />
   <a href="https://t.me/sehraks">

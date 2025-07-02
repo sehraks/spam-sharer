@@ -19,22 +19,22 @@
    termux-setup-storage
    ```
 
-2. Update the package manager
+2. Update the package manager:
    ```bash
    pkg update && pkg upgrade
    ```
    
-3. Install Git and Python
+3. Install Git and Python:
    ```bash
    pkg install git python
    ```
    
-4. Clone the project
+4. Clone the project:
    ```bash
    git clone https://github.com/sehraks/spam-sharer.git
    ```
 
-5. Change directory and install dependencies
+5. Change directory and install dependencies:
    ```bash
    cd spam-sharer
    ```  
@@ -42,7 +42,7 @@
    pip install -r requirements.txt
    ```
 
-6. Run the script
+6. Run the script:
    ```bash
    python main.py
    ```

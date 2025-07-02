@@ -14,6 +14,26 @@
   </p>
 </div>
 
+## Features
+
+- **Advance Useragent**:
+  - Utilizes `fake-useragent` to generate random user agents, helping to avoid detection by Meta platforms and ensuring seamless operation.
+
+- **Accounts Management**:
+  - Add and manage multiple accounts to maintain functionality even if a cookie gets restricted, providing flexibility and reliability.
+
+- **Cookie String and Appstate (JSON) Supported**:
+  - Add accounts using a cookie string or by importing an appstate JSON file.
+  - **Cookie String Example** (structure only, replace `xxxx` with your values):
+    ```
+    datr=xxxx; sb=xxxx; m_pixel_ratio=3; vpd=xxxx; x-referer=xxxx; ps_l=1; ps_n=1; wd=360x820; c_user=xxxx; xs=xxxx; fr=xxxx; locale=en_US; fbl_st=xxxx; wl_cbv=xxxx
+    ```
+  - **Appstate JSON Import**:
+    - Place your appstate JSON file in `/storage/emulated/0/Spam-Sharer/private/appstate.json` to import it.
+
+- **More Features Coming Soon**:
+  - Stay tuned for additional enhancements and updates!
+
 ## Installation in Termux
 
 Follow these steps to set up and run Spam-Sharer in Termux:

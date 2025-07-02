@@ -21,7 +21,7 @@
 
 </div>
 
-## 📝 Developer’s Note
+## Developer’s Note
 
 The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent unauthorized misuse or modification. I, Cerax, assure you that this tool is designed with user safety in mind.
 
@@ -85,7 +85,7 @@ Get `Spam-Sharer` up and running in just a few steps:
    python3 main.py
    ```
 
-## ⚡ Optional: Set Up a Shortcut
+## Optional: Set Up a Shortcut
 
 Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
 
@@ -115,7 +115,7 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
 
 > **Note**: If `~/.bashrc` doesn’t exist, `micro` will create it. The `fbs` alias automatically navigates to the correct directory.
 
-## 🚀 Usage
+## Usage
 
 - **First Run**: Select **Option 3 (Update)** to check for updates (required before other actions).
 - **Account Management**: Use **Option 1** to add accounts via cookie strings or appstate JSON, or to copy/switch accounts.
@@ -123,11 +123,11 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
 - **Exit**: Select **Option 4** to close the tool.
 - **Data Storage**: Account data is securely stored in the `storage/` directory and protected from updates.
 
-## 💡 Tips
+## Tips
 
 - **Run Multiple Sessions**: Speed up tasks by swiping left in Termux to open new sessions and run multiple sharing tasks simultaneously!
 
-## ⚠️ Notes
+## Notes
 
 - **Correct Directory**: Run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`), unless using the `fbs` alias.
 - **Account Data**: Stored securely in `storage/` and protected by `.gitignore`.
@@ -142,7 +142,7 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
   - **Alias issues**: Verify `~/.bashrc` path and reload with `source ~/.bashrc`.  
   - For other issues, open a [GitHub issue](https://github.com/sehraks/spam-sharer/issues) or [DM on Facebook](https://www.facebook.com/100033379733340).
 
-## 📋 Requirements
+## Requirements
 
 See `requirements.txt` for Python dependencies:  
 - `rich>=13.7.1`  

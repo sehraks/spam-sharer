@@ -24,7 +24,7 @@
 
 - **Cookie String and Appstate (JSON) Supported**:
   - Add accounts using a cookie string or by importing an appstate JSON file.
-  - **Cookie String Example** (structure only, replace `xxxx` with your values):
+  - **Cookie String Example**
     ```
     datr=xxxx; sb=xxxx; m_pixel_ratio=3; vpd=xxxx; x-referer=xxxx; ps_l=1; ps_n=1; wd=360x820; c_user=xxxx; xs=xxxx; fr=xxxx; locale=en_US; fbl_st=xxxx; wl_cbv=xxxx
     ```

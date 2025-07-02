@@ -73,6 +73,44 @@ Follow these steps to set up and run Spam-Sharer in Termux:
      python3 main.py
      ```
 
+## Optional Shortcut Setup
+
+To run Spam-Sharer with a simple `fbs` command from any directory, set up an alias in Termux:
+
+1. **Install `micro` Editor**:
+   - Install the `micro` text editor to edit configuration files:
+     ```bash
+     pkg install micro
+     ```
+
+2. **Edit `.bashrc`**:
+   - Open the `.bashrc` file with `micro`:
+     ```bash
+     micro ~/.bashrc
+     ```
+   - Add this line at the end of the file:
+     ```bash
+     alias fbs='cd ~/spam-sharer && python3 main.py'
+     ```
+   - Save and exit `micro`:
+     - Press `Ctrl+S` to save.
+     - Press `Ctrl+Q` to exit.
+
+3. **Apply the Alias**:
+   - Reload the `.bashrc` to apply the alias:
+     ```bash
+     source ~/.bashrc
+     ```
+
+4. **Test the Shortcut**:
+   - From any directory, run:
+     ```bash
+     fbs
+     ```
+   - This should navigate to `~/spam-sharer` and start the script.
+
+**Note**: If `~/.bashrc` doesn’t exist, `micro` will create it. Ensure you’re in the `spam-sharer` directory when running `python3 main.py` manually, but the `fbs` alias handles this automatically.
+
 ## Usage
 
 - On first run, select **Option 3 (Update)** to check for updates (required before other options).
@@ -83,7 +121,7 @@ Follow these steps to set up and run Spam-Sharer in Termux:
 
 ## Notes
 
-- **Run from Correct Directory**: Always run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`).
+- **Run from Correct Directory**: Always run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`), unless using the `fbs` alias.
 - **Account Data**: Stored in `storage/accounts.json`, `storage/current_account.json`, and `storage/data/spam_sharing/data.json`, which are ignored by Git to prevent overwriting during updates.
 - **Troubleshooting**:
   - If `pip install -r requirements.txt` fails, update pip:

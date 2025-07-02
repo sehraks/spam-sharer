@@ -132,6 +132,7 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
 - **Correct Directory**: Run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`), unless using the `fbs` alias.
 - **Account Data**: Stored securely in `storage/` and protected by `.gitignore`.
 - **Clipboard Feature**: Requires Termux:API (`pkg install termux-api`).
+  
 - **Troubleshooting**:  
   - **Pip issues**: Update pip with `pip install --upgrade pip`.  
   - **Storage errors**: Re-run `termux-setup-storage` or check Termux permissions in Android settings.  

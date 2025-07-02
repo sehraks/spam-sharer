@@ -6,7 +6,7 @@
   <p align="center">
     An advanced tool for spam sharing.
     <br/>
-    <a href="https://www.facebook.com/sehraks"><strong>DM me on Facebook for questions</strong></a>
+    <a href="https://www.facebook.com/100033379733340"><strong>DM me on Facebook for questions</strong></a>
     <br/>
   </p>
 

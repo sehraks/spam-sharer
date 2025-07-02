@@ -1,159 +1,150 @@
-<br />
 <div align="center">
 
-  <h3 align="center">SPAM SHARER</h3>
+  <h1 align="center">SPAM SHARER</h1>
+  <img src="https://img.shields.io/badge/Version-1.0-blue?style=flat" alt="Version" />
 
   <p align="center">
-    An advanced tool for spam sharing.
-    <br/>
-    <a href="https://www.facebook.com/100033379733340"><strong>DM me on Facebook for questions</strong></a>
-    <br/>
-  </p>
+    A powerful, secure tool for advanced spam sharing on Meta platforms.
+    <br />
+    <br />
+    <a href="https://www.facebook.com/100033379733340">
+      <img src="https://img.shields.io/badge/Contact-Cerax-blue?style=flat&logo=facebook" alt="Facebook" />
+    </a>
+    <a href="#">
+      <img src="https://img.shields.io/badge/Python-3.10+-yellow?style=flat&logo=python" alt="Python" />
+    </a>
 
-  | ![Spam-Sharer Accounts Management](https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot1.jpg) | ![Spam-Sharer Spam Sharing Process](https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot2.jpg) |
-  |:--:|:--:|
+  <p align="center">
+    <img src="https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot1.jpg" alt="Accounts Management" width="45%" />
+    <img src="https://github.com/sehraks/spam-sharer/raw/main/screenshots/screenshot2.jpg" alt="Spam Sharing Process" width="45%" />
+  </p>
 
 </div>
 
-## Developer’s Note
+## 📝 Developer’s Note
 
 The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent unauthorized misuse or modification. I, Cerax, assure you that this tool is designed with user safety in mind.
 
-No cookies, appstate data, or any personal information is sent to any server. All account data is stored locally in the `storage/` directory (e.g., `storage/accounts.json`, `storage/current_account.json`, `storage/data/spam_sharing/data.json`), which is protected by `.gitignore` to ensure it remains on your device and is not uploaded to GitHub or elsewhere.
+- **No data is sent externally**: Cookies, appstate data, and personal information stay **local** in the `storage/` directory (e.g., `storage/accounts.json`, `storage/current_account.json`, `storage/data/spam_sharing/data.json`). These files are protected by `.gitignore` to ensure they remain on your device.
+- **Offline operations**: Sensitive tasks like cookie handling are performed locally.
+- **Clipboard functionality**: Features like copying cookies (via Termux:API) are entirely local.
 
-The tool operates offline for sensitive operations like cookie handling, and features like clipboard copying (via Termux:API) are purely local.
+## ✨ Features
 
-## Features
+- **Advanced User-Agent Rotation**  
+  Uses `fake-useragent` to generate random user agents, evading detection on Meta platforms for smooth operation.
 
-- **Advance Useragent**:
-  - Utilizes `fake-useragent` to generate random user agents, helping to avoid detection by Meta platforms and ensuring seamless operation.
+- **Seamless Account Management**  
+  Add, switch, or manage multiple accounts to maintain functionality even if a cookie is restricted. Easily copy cookie strings to your clipboard (requires Termux:API).
 
-- **Accounts Management**:
-  - Add and manage multiple accounts to maintain functionality even if a cookie gets restricted, providing flexibility and reliability.
-  - Copy cookie strings to the clipboard for easy management (requires Termux:API).
-
-- **Cookie String and Appstate (JSON) Supported**:
-  - Add accounts using a cookie string or by importing an appstate JSON file.
-  - **Cookie String Example** (structure only):
+- **Flexible Account Input**  
+  Supports both **cookie strings** and **appstate JSON** imports:  
+  - **Cookie String Example** (structure only):  
     ```
     datr=xxxx; sb=xxxx; m_pixel_ratio=3; vpd=xxxx; x-referer=xxxx; ps_l=1; ps_n=1; wd=360x820; c_user=xxxx; xs=xxxx; fr=xxxx; locale=en_US; fbl_st=xxxx; wl_cbv=xxxx
-    ```
-  - **Appstate JSON Import**:
-    - Place your appstate JSON file in `/storage/emulated/0/Spam-Sharer/private/appstate.json` to import it.
+    ```  
+  - **Appstate JSON Import**: Place your file in `/storage/emulated/0/Spam-Sharer/private/appstate.json`.
 
-- **More Features Coming Soon**:
-  - Stay tuned for additional enhancements and updates!
+- **More to Come**  
+  Exciting updates and features are in the pipeline—stay tuned!
 
-## Installation in Termux
+## 🛠️ Installation in Termux
 
-Follow these steps to set up and run Spam-Sharer in Termux:
+Get `Spam-Sharer` up and running in just a few steps:
 
-1. **Install Termux and Termux:API App**:
-   - Download **Termux** and **Termux:API** from the Google Play Store or F-Droid.
+1. **Install Termux and Termux:API**  
+   Download **Termux** and **Termux:API** from the [Google Play Store](https://play.google.com/store/apps/details?id=com.termux) or [F-Droid](https://f-droid.org/packages/com.termux/).
 
-2. **Update Termux and Install Dependencies**:
-   - Update the package manager and install Git, Python, and Termux:API:
-     ```bash
-     pkg update && pkg upgrade
-     pkg install git python termux-api
-     ```
+2. **Update Termux and Install Dependencies**  
+   ```bash
+   pkg update && pkg upgrade
+   pkg install git python termux-api
+   ```
 
-3. **Grant Storage Permissions**:
-   - Allow Termux to access storage (required for saving account data):
-     ```bash
-     termux-setup-storage
-     ```
+3. **Grant Storage Permissions**  
+   Allow Termux to access storage for saving account data:  
+   ```bash
+   termux-setup-storage
+   ```
 
-4. **Clone the Repository**:
-   - Clone the Spam-Sharer project to your current directory:
-     ```bash
-     git clone https://github.com/sehraks/spam-sharer.git
-     ```
+4. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/sehraks/spam-sharer.git
+   ```
 
-5. **Navigate to Project Directory and Install Python Dependencies**:
-   - Change to the project directory and install required packages:
-     ```bash
-     cd spam-sharer
-     pip install -r requirements.txt
-     ```
+5. **Install Python Dependencies**  
+   Navigate to the project directory and install required packages:  
+   ```bash
+   cd spam-sharer
+   pip install -r requirements.txt
+   ```
 
-6. **Run the Script**:
-   - Start the Spam-Sharer tool:
-     ```bash
-     python3 main.py
-     ```
+6. **Run the Script**  
+   Launch `Spam-Sharer`:  
+   ```bash
+   python3 main.py
+   ```
 
-## Optional Shortcut Setup
+## ⚡ Optional: Set Up a Shortcut
 
-To run Spam-Sharer with a simple `fbs` command from any directory, set up an alias in Termux:
+Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
 
-1. **Install `micro` Editor**:
-   - Install the `micro` text editor to edit configuration files:
-     ```bash
-     pkg install micro
-     ```
+1. **Install `micro` Editor**  
+   ```bash
+   pkg install micro
+   ```
 
-2. **Edit `.bashrc`**:
-   - Open the `.bashrc` file with `micro`:
-     ```bash
-     micro ~/.bashrc
-     ```
-   - Add this line at the end of the file:
-     ```bash
-     alias fbs='cd ~/spam-sharer && python3 main.py'
-     ```
-   - Save and exit `micro`:
-     - Press `Ctrl+S` to save.
-     - Press `Ctrl+Q` to exit.
+2. **Edit `.bashrc`**  
+   Open the `.bashrc` file:  
+   ```bash
+   micro ~/.bashrc
+   ```  
+   Add this line at the end:  
+   ```bash
+   alias fbs='cd ~/spam-sharer && python3 main.py'
+   ```  
+   Save (`Ctrl+S`) and exit (`Ctrl+Q`).
 
-3. **Apply the Alias**:
-   - Reload the `.bashrc` to apply the alias:
-     ```bash
-     source ~/.bashrc
-     ```
+3. **Apply the Alias**  
+   ```bash
+   source ~/.bashrc
+   ```
 
-4. **Test the Shortcut**:
-   - From any directory, run:
-     ```bash
-     fbs
-     ```
-   - This should navigate to `~/spam-sharer` and start the script.
+4. **Test the Shortcut**  
+   Run `fbs` from any directory to start `Spam-Sharer`.
 
-**Note**: If `~/.bashrc` doesn’t exist, `micro` will create it. Ensure you’re in the `spam-sharer` directory when running `python3 main.py` manually, but the `fbs` alias handles this automatically.
+> **Note**: If `~/.bashrc` doesn’t exist, `micro` will create it. The `fbs` alias automatically navigates to the correct directory.
 
-## Usage
+## 🚀 Usage
 
-- On first run, select **Option 3 (Update)** to check for updates (required before other options).
-- Use **Option 1 (Accounts Management)** to add accounts via cookie strings or appstate JSON, or copy/switch accounts.
-- Use **Option 2 (Spam Share)** to perform sharing tasks.
-- Select **Option 4 (Exit)** to close the tool.
-- Account data is saved in the `storage/` directory and protected from updates.
+- **First Run**: Select **Option 3 (Update)** to check for updates (required before other actions).
+- **Account Management**: Use **Option 1** to add accounts via cookie strings or appstate JSON, or to copy/switch accounts.
+- **Spam Sharing**: Use **Option 2** to start sharing tasks.
+- **Exit**: Select **Option 4** to close the tool.
+- **Data Storage**: Account data is securely stored in the `storage/` directory and protected from updates.
 
-## Tips
+## 💡 Tips
 
-- **Run Multiple Sessions**: Impatiently waiting for your spam sharing process to finish? Swipe left in Termux to open a new session and run multiple sharing tasks simultaneously!
+- **Run Multiple Sessions**: Speed up tasks by swiping left in Termux to open new sessions and run multiple sharing tasks simultaneously!
 
-## Notes
+## ⚠️ Notes
 
-- **Run from Correct Directory**: Always run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`), unless using the `fbs` alias.
-- **Account Data**: Stored in `storage/accounts.json`, `storage/current_account.json`, and `storage/data/spam_sharing/data.json`, which are ignored by Git to prevent overwriting during updates.
-- **Clipboard Feature**: Copying cookies requires the Termux:API app and package (`pkg install termux-api`).
-- **Troubleshooting**:
-  - If `pip install -r requirements.txt` fails, update pip:
-    ```bash
-    pip install --upgrade pip
-    ```
-  - If storage errors occur, re-run `termux-setup-storage` or check Android permissions for Termux.
-  - If `.gitignore` is missing, manually create it:
+- **Correct Directory**: Run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`), unless using the `fbs` alias.
+- **Account Data**: Stored securely in `storage/` and protected by `.gitignore`.
+- **Clipboard Feature**: Requires Termux:API (`pkg install termux-api`).
+- **Troubleshooting**:  
+  - **Pip issues**: Update pip with `pip install --upgrade pip`.  
+  - **Storage errors**: Re-run `termux-setup-storage` or check Termux permissions in Android settings.  
+  - **Missing `.gitignore`**: Create it manually:  
     ```bash
     echo "storage/" > .gitignore
-    ```
-  - If the `fbs` alias fails, ensure `~/.bashrc` includes the correct path and reload it (`source ~/.bashrc`).
-  - For other issues, open a GitHub issue or DM on Facebook.
+    ```  
+  - **Alias issues**: Verify `~/.bashrc` path and reload with `source ~/.bashrc`.  
+  - For other issues, open a [GitHub issue](https://github.com/sehraks/spam-sharer/issues) or [DM on Facebook](https://www.facebook.com/100033379733340).
 
-## Requirements
+## 📋 Requirements
 
-See `requirements.txt` for Python dependencies:
-- `rich>=13.7.1`
-- `aiohttp>=3.9.5`
+See `requirements.txt` for Python dependencies:  
+- `rich>=13.7.1`  
+- `aiohttp>=3.9.5`  
 - `fake-useragent>=1.5.1`

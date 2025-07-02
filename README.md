@@ -48,7 +48,7 @@ The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent u
 - **More to Come**  
   Exciting updates and features are in the pipeline—stay tuned!
 
-## 🛠️ Installation in Termux
+## Installation in Termux
 
 Get `Spam-Sharer` up and running in just a few steps:
 

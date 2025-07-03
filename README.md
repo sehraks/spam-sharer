@@ -114,7 +114,8 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
 4. **Test the Shortcut**  
    Run `fbs` from any directory to start `Spam-Sharer`.
 
-> **Note**: If `~/.bashrc` doesn’t exist, `micro` will create it. The `fbs` alias automatically navigates to the correct directory.
+> [!NOTE]
+> If `~/.bashrc` doesn’t exist, `micro` will create it. The `fbs` alias automatically navigates to the correct directory.
 
 ## Usage
 
@@ -124,25 +125,28 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
 - **Exit**: Select **Option 4** to close the tool.
 - **Data Storage**: Account data is securely stored in the `storage/` directory and protected from updates.
 
-## Tips
+## Guidelines
 
-- **Run Multiple Sessions**: Speed up tasks by swiping left in Termux to open new sessions and run multiple sharing tasks simultaneously!
+> [!TIP]
+> **Run Multiple Sessions**: Speed up tasks by swiping left in Termux to open new sessions and run multiple sharing tasks simultaneously!
 
-## Notes
-
-- **Correct Directory**: Run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`), unless using the `fbs` alias.
-- **Account Data**: Stored securely in `storage/` and protected by `.gitignore`.
-- **Clipboard Feature**: Requires Termux:API (`pkg install termux-api`).
+> [!IMPORTANT]
+> 1. **Correct Directory**: Run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`), unless using the `fbs` alias.
+> 2. **Account Data**: Stored securely in `storage/` and protected by `.gitignore`.
+> 3. **Clipboard Feature**: Requires Termux:API (`pkg install termux-api`).
   
-- **Troubleshooting**:  
-  - **Pip issues**: Update pip with `pip install --upgrade pip`.  
-  - **Storage errors**: Re-run `termux-setup-storage` or check Termux permissions in Android settings.  
-  - **Missing `.gitignore`**: Create it manually:  
-    ```bash
-    echo "storage/" > .gitignore
-    ```  
-  - **Alias issues**: Verify `~/.bashrc` path and reload with `source ~/.bashrc`.  
-  - For other issues, open a [GitHub issue](https://github.com/sehraks/spam-sharer/issues) or [DM on Facebook](https://www.facebook.com/100033379733340).
+> [!NOTE]
+> **Troubleshooting**
+> 1. **Pip issues**: Update pip with `pip install --upgrade pip`.
+> 2. **Storage errors**: Re-run `termux-setup-storage` or check Termux permissions in Android settings.
+> 3. **Missing `.gitignore`**: Create it manually:  
+    ```bash echo "storage/" > .gitignore
+    ```
+> 4. **Alias issues**: Verify `~/.bashrc` path and reload with `source ~/.bashrc`.
+
+## For other issues
+
+Open a [GitHub issue](https://github.com/sehraks/spam-sharer/issues) or [DM on Facebook](https://www.facebook.com/100033379733340).
 
 ## Requirements
 

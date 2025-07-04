@@ -27,7 +27,7 @@ The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent u
 ## Features
 
 - **Advanced User-Agent Rotation**  
-  Uses `fake-useragent` to generate random user agents, evading detection on Meta platforms for smooth operation.
+  Uses `fake-useragent` to generate random user agents, evading detection on Meta platform for smooth operation.
 
 - **Seamless Account Management**  
   Add, switch, or manage multiple accounts to maintain functionality even if a cookie is restricted. Easily copy cookie strings to your clipboard (requires Termux:API).

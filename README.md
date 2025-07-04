@@ -27,7 +27,7 @@ The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent u
 ## Features
 
 - **Advanced User-Agent Rotation**  
-  Uses `fake-useragent` to generate random user agents, evading detection on Meta platforms for smooth operation.
+  Uses `fake-useragent` to generate random user agents, evading detection on Meta platform for smooth operation.
 
 - **Seamless Account Management**  
   Add, switch, or manage multiple accounts to maintain functionality even if a cookie is restricted. Easily copy cookie strings to your clipboard (requires Termux:API).
@@ -41,7 +41,7 @@ The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent u
   - **Appstate JSON Import**: Paste your JSON in `/storage/emulated/0/Spam-Sharer/private/appstate.json`.
 
 - **Multiple Supported URLs**  
-  Seamlessly supports a variety of URLs, including video links, group posts, and other shareable content, enabling versatile sharing across different platforms and formats for enhanced flexibility.
+  Seamlessly supports a variety of URLs, including video links, group posts, and other shareable content, enabling versatile sharing across different formats for enhanced flexibility.
 
 - **More to Come**  
   Exciting updates and features are in the pipeline—stay tuned!

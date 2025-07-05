@@ -156,7 +156,7 @@ cd ~/spam-sharer
 >  
 > If you have multiple cookies stored in `accounts.json`, all of them will be lost. Consider using this option carefully.  
 >  
-> If you are not experiencing major issues, use the **inbuilt updater** within the app instead — it will fetch new features, bug fixes, and minor changes from the remote version without deleting your local files.
+> If you are not experiencing major issues, use the **inbuilt updater** within the app instead — it will fetch new features, bug fixes, and minor changes from the remote version without deleting your `spam-sharer` local files.
 
 ## Guidelines
 

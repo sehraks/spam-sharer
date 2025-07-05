@@ -122,32 +122,39 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
 - **Exit**: Select **Option 4** to close the tool.
 - **Data Storage**: Account data is securely stored in the `storage/` directory and protected from updates.
 
-## Hard Reset `main` if the local project gets corrupted
+## Force reclone the `main` branch
 
-Use the following commands to **force reset** the local `main` branch so it exactly matches the remote version.
+Sometimes you need to make sure your local `main` branch exactly matches the remote version — or fully clean your local project if it gets corrupted.
+
+Copy this bash and paste into your Termux:
 
 ```bash
-# Go to the project directory
+# Make sure first you are in the home directory
+cd $home
+
+# Remove the entire local project
+rm -rf ~/spam-sharer
+
+# Clone a fresh copy
+git clone https://github.com/sehraks/spam-sharer.git ~/spam-sharer
+
+# Go to the project
 cd ~/spam-sharer
-
-# Fetch all latest updates from the remote repository
-git fetch origin
-
-# Switch to the main branch
-git checkout main
-
-# Force-reset local main to match origin/main exactly
-git reset --hard origin/main
-
-# Remove any untracked files and folders
-git clean -fd
-
-# Pull latest changes to ensure everything is up to date
-git pull origin main
 ```
 
+> [!NOTE]
+> **Use this when**:
+> 1. The local project is corrupted or misconfigured.
+> 2. You want a fully clean start.
+> 3. The .git folder or remote config is broken.
+
+> [!NOTE]  
+> Sometimes, even if you reset or reclone it, it may not work if the repository does not have any new commits. Please wait for the developer to push an update, or check this GitHub repository for newly added commits.
+
 > [!IMPORTANT]  
-> Sometimes, even if you reset it, it may not work if the repository does not have any new commits. Please wait for the developer to push an update, or check this GitHub repository for newly added commits.
+> Recloning the repository will delete all of your local `spam-sharer` files, including important files like `storage/accounts.json` and `storage/current_account.json`.  
+>  
+> If you have multiple cookies stored in `accounts.json`, all of them will be lost. Consider using this option carefully.
 
 ## Guidelines
 

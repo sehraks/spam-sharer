@@ -122,6 +122,33 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
 - **Exit**: Select **Option 4** to close the tool.
 - **Data Storage**: Account data is securely stored in the `storage/` directory and protected from updates.
 
+## Hard Reset `main` if the local project gets corrupted
+
+Use the following commands to **force reset** the local `main` branch so it exactly matches the remote version.
+
+```bash
+# Go to the project directory
+cd ~/spam-sharer
+
+# Fetch all latest updates from the remote repository
+git fetch origin
+
+# Switch to the main branch
+git checkout main
+
+# Force-reset local main to match origin/main exactly
+git reset --hard origin/main
+
+# Remove any untracked files and folders
+git clean -fd
+
+# Pull latest changes to ensure everything is up to date
+git pull origin main
+```
+
+> [!IMPORTANT]  
+> Sometimes, even if you reset it, it may not work if the repository does not have any new commits. Please wait for the developer to push an update, or check this GitHub repository for newly added commits.
+
 ## Guidelines
 
 > [!TIP]

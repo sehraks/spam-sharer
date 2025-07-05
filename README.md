@@ -172,11 +172,15 @@ cd ~/spam-sharer
   
 > [!NOTE]
 > **Troubleshooting**
+> 
 > **Pip issues**: Update pip with `pip install --upgrade pip`.
+> 
 > **Storage errors**: Re-run `termux-setup-storage` or check Termux permissions in Android settings.
+> 
 > **Missing `.gitignore`**: Create it manually:  
     ```bash echo "storage/" > .gitignore
     ```
+> 
 > **Alias issues**: Verify `~/.bashrc` path and reload with `source ~/.bashrc`.
 
 ## For other issues

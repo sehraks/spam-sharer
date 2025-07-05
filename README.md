@@ -122,9 +122,9 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
 - **Exit**: Select **Option 4** to close the tool.
 - **Data Storage**: Account data is securely stored in the `storage/` directory and protected from updates.
 
-## Force reclone the `spam-sharer` if ever the local files gets corrupted
+## Force reclone the `Spam-Sharer`
 
-Sometimes you need to make sure your `spam-sharer` local files exactly matches the remote version — or fully clean your local project if it gets corrupted.
+Reclone the project if ever the `Spam-Sharer` local files gets corrupted.
 
 Copy this bash and paste it into your Termux:
 

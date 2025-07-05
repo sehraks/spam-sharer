@@ -126,7 +126,7 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
 
 Sometimes you need to make sure your local `main` branch exactly matches the remote version — or fully clean your local project if it gets corrupted.
 
-Copy this bash and paste into your Termux:
+Copy this bash and paste it into your Termux:
 
 ```bash
 # Make sure first you are in the home directory

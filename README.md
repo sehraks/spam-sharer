@@ -164,18 +164,18 @@ cd ~/spam-sharer
 > **Run Multiple Sessions**: Speed up tasks by swiping left in Termux to open new sessions and run multiple sharing tasks simultaneously!
 
 > [!IMPORTANT]
-> 1. **Correct Directory**: Run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`), unless using the `fbs` alias.
-> 2. **Account Data**: Stored securely in `storage/` and protected by `.gitignore`.
-> 3. **Clipboard Feature**: Requires Termux:API (`pkg install termux-api`).
+> **Correct Directory**: Run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`), unless using the `fbs` alias.
+> **Account Data**: Stored securely in `storage/` and protected by `.gitignore`.
+> **Clipboard Feature**: Requires Termux:API (`pkg install termux-api`).
   
 > [!NOTE]
 > **Troubleshooting**
-> 1. **Pip issues**: Update pip with `pip install --upgrade pip`.
-> 2. **Storage errors**: Re-run `termux-setup-storage` or check Termux permissions in Android settings.
-> 3. **Missing `.gitignore`**: Create it manually:  
+> **Pip issues**: Update pip with `pip install --upgrade pip`.
+> **Storage errors**: Re-run `termux-setup-storage` or check Termux permissions in Android settings.
+> **Missing `.gitignore`**: Create it manually:  
     ```bash echo "storage/" > .gitignore
     ```
-> 4. **Alias issues**: Verify `~/.bashrc` path and reload with `source ~/.bashrc`.
+> **Alias issues**: Verify `~/.bashrc` path and reload with `source ~/.bashrc`.
 
 ## For other issues
 

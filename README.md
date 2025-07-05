@@ -164,8 +164,13 @@ cd ~/spam-sharer
 > **Run Multiple Sessions**: Speed up tasks by swiping left in Termux to open new sessions and run multiple sharing tasks simultaneously!
 
 > [!IMPORTANT]
-> **Clipboard Feature**: Requires Termux:API (`pkg install termux-api`).
-  
+> **Clipboard Feature**: Requires Termux:API
+> 
+> If not installed yet:
+```bash
+pkg install termux-api
+```
+ 
 > [!NOTE]
 > **Troubleshooting**
 > 
@@ -173,9 +178,8 @@ cd ~/spam-sharer
 > 
 > **Storage errors**: Re-run `termux-setup-storage` or check Termux permissions in Android settings.
 > 
-> **Missing `.gitignore`**: Create it manually:  
-    ```bash echo "storage/" > .gitignore
-    ```
+> **Missing `.gitignore`**: Create it manually:
+```bash echo "storage/" > .gitignore ```
 > 
 > **Alias issues**: Verify `~/.bashrc` path and reload with `source ~/.bashrc`.
 

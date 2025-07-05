@@ -166,10 +166,7 @@ cd ~/spam-sharer
 > [!IMPORTANT]
 > **Clipboard Feature**: Requires Termux:API
 > 
-> If not installed yet:
-```bash
-pkg install termux-api
-```
+> If not installed yet: `pkg install termux-api`
  
 > [!NOTE]
 > **Troubleshooting**

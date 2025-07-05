@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/Contact-Cerax-24A1DE?style=flat-square&cacheSeconds=3600&logo=telegram&logoColor=white" alt="Telegram Contact Badge" />
   </a>
   <img src="https://img.shields.io/badge/Python-3.10+-FFD43B?style=flat-square&cacheSeconds=3600&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Version-1.0-808080?style=flat-square&cacheSeconds=3600&logo=info&logoColor=white" alt="Version" />
+  <img src="https://img.shields.io/badge/Version-1.1-808080?style=flat-square&cacheSeconds=3600&logo=info&logoColor=white" alt="Version" />
 </p>
 
 <p align="center">

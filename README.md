@@ -144,9 +144,9 @@ cd ~/spam-sharer
 
 > [!NOTE]
 > **Use this when**:
-> 1. The local project is corrupted or misconfigured.
-> 2. You want a fully clean start.
-> 3. The .git folder or remote config is broken.
+> - The local project is corrupted or misconfigured.
+> - You want a fully clean start.
+> - The .git folder or remote config is broken.
 
 > [!NOTE]  
 > Sometimes, even if you reclone it, it may not work if the repository does not have any new commits. Please wait for the developer to push an update, or check this GitHub repository for newly added commits.

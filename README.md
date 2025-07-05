@@ -164,9 +164,11 @@ cd ~/spam-sharer
 > **Run Multiple Sessions**: Speed up tasks by swiping left in Termux to open new sessions and run multiple sharing tasks simultaneously!
 
 > [!IMPORTANT]
-> - **Correct Directory**: Run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`), unless using the `fbs` alias.
-> - **Account Data**: Stored securely in `storage/` and protected by `.gitignore`.
-> - **Clipboard Feature**: Requires Termux:API (`pkg install termux-api`).
+> **Correct Directory**: Run `python3 main.py` from the `spam-sharer` directory (`cd spam-sharer`), unless using the `fbs` alias.
+> 
+> **Account Data**: Stored securely in `storage/` and protected by `.gitignore`.
+>
+> **Clipboard Feature**: Requires Termux:API (`pkg install termux-api`).
   
 > [!NOTE]
 > **Troubleshooting**

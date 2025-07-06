@@ -130,11 +130,21 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
 
 ## Usage
 
-- **First Run**: Select **Option 3 (Update)** to check for updates (required before other actions).
-- **Account Management**: Use **Option 1** to add accounts via cookie strings or appstate JSON, or to copy/switch accounts.
-- **Spam Sharing**: Use **Option 2** to start sharing tasks.
-- **Exit**: Select **Option 4** to close the tool.
-- **Data Storage**: Account data is securely stored in the `storage/` directory and protected from updates.
+- **First Run**: Select **Option 3 (Update)** to check for updates. This is required before performing other actions to ensure the tool is up-to-date.
+- **Account Management**: Use **Option 1** to:
+  - Add accounts via cookie strings or appstate JSON imports (located at `/storage/emulated/0/Spam-Sharer/private/appstate.json`).
+  - Copy cookie strings to your clipboard (requires Termux:API).
+  - Switch between multiple accounts for seamless operation.
+- **Spam Sharing**: Use **Option 2** to start sharing tasks:
+  1. **Enter Post URL**: Input a valid Facebook post URL (e.g., regular posts, video links, or group posts).
+  2. **Specify Total Shares**: Enter the total number of shares to perform.
+  3. **Set Shares per Batch**: Define how many shares to process simultaneously in each batch (recommended: 3-5 for stealth).
+  4. **Set Delay Range**: Input minimum and maximum delay (in seconds) for random pauses between batches to enhance stealth.
+  5. **Confirm Configuration**: Review the summary (including masked post link for readability) and confirm to start sharing.
+  6. **Monitor Progress**: View real-time batch progress, network issue notifications, and spam restriction alerts. The tool pauses and resumes automatically during connectivity issues.
+  7. **View Results**: Check the results panel for total successful shares, batches completed, total time, network issues detected, and success rate.
+- **Exit**: Select **Option 4** to close the tool safely.
+- **Data Storage**: Account data and share tracking are securely stored in the `storage/` directory and protected from updates.
 
 ## Force reclone the `Spam-Sharer`
 

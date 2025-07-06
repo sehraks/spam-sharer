@@ -1,8 +1,8 @@
 # Changelog
 
-All notable changes to the Facebook MonoToolkit project will be documented in this file.
+All notable changes to the Spam Sharer project will be documented in this file.
 
-## [1.5] - 2025-07-07
+## Version: 1.5- 2025-07-07
 
 - Added network error handling with pause-and-resume functionality for connectivity issues.
 - Added spam restriction detection to stop sharing and suggest account switching with recovery time.
@@ -12,7 +12,7 @@ All notable changes to the Facebook MonoToolkit project will be documented in th
 - Improved delay message to use console output with cyan-colored delay time instead of panel.
 - Fixed minor bugs and improved error messaging for network and spam restrictions.
 
-## [1.0] - 2025-07-02
+## Version: 1.0 - 2025-07-02
 
 - Added advanced user-agent rotation using `fake-useragent` for stealthy operation on Meta platforms.
 - Added seamless account management to add, switch, or manage multiple accounts, with clipboard support (requires Termux:API).

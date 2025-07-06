@@ -16,7 +16,7 @@ Since: July 07, 2025
 - Fixed minor bugs and enhanced error messaging for network and spam restrictions.
 
 ## Version: 1.0
-Since: June 01, 2025
+Since: July 03, 2025
 
 - Added advanced user-agent rotation using `fake-useragent` for stealthy operation on Meta platforms.
 - Added seamless account management to add, switch, or manage multiple accounts, with clipboard support (requires Termux:API).

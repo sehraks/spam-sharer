@@ -2,7 +2,8 @@
 
 All notable changes to the Spam Sharer project will be documented in this file.
 
-## Version: 1.5- 2025-07-07
+## Version: 1.5
+Since: July 07, 2025
 
 - Added network error handling with pause-and-resume functionality for connectivity issues.
 - Added spam restriction detection to stop sharing and suggest account switching with recovery time.
@@ -12,7 +13,8 @@ All notable changes to the Spam Sharer project will be documented in this file.
 - Improved delay message to use console output with cyan-colored delay time instead of panel.
 - Fixed minor bugs and improved error messaging for network and spam restrictions.
 
-## Version: 1.0 - 2025-07-02
+## Version: 1.0
+Since: July 02, 2025
 
 - Added advanced user-agent rotation using `fake-useragent` for stealthy operation on Meta platforms.
 - Added seamless account management to add, switch, or manage multiple accounts, with clipboard support (requires Termux:API).

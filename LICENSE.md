@@ -1,6 +1,6 @@
 # Custom License Agreement
 
-**Copyright (c) 2025 Cerax**
+**Copyright (c) 2025 — Spam-Sharer**
 
 All rights reserved.
 

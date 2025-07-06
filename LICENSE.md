@@ -11,9 +11,8 @@ This repository contains proprietary software that has been intentionally obfusc
 
 ### 2. Permitted Uses
 You are granted a limited, non-exclusive, non-transferable license to:
-- View and study the obfuscated code for educational purposes
 - Use the software for personal, non-commercial projects
-- Report bugs or security vulnerabilities to the copyright holder
+- Report bugs, errors or security vulnerabilities to the developer
 
 ### 3. Restrictions
 You are expressly prohibited from:

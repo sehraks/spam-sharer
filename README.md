@@ -136,13 +136,13 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
   - Copy cookie strings to your clipboard (requires Termux:API).
   - Switch between multiple accounts for seamless operation.
 - **Spam Sharing**: Use **Option 2** to start sharing tasks:
-1. **Enter Post URL**: Input a valid Facebook post URL (e.g., regular posts, video links, or group posts).
-2. **Specify Total Shares**: Enter the total number of shares to perform.
-3. **Set Shares per Batch**: Define how many shares to process simultaneously in each batch (recommended: 3-5 for stealth).
-4. **Set Delay Range**: Input minimum and maximum delay (in seconds) for random pauses between batches to enhance stealth.
-5. **Confirm Configuration**: Review the summary (including masked post link for readability) and confirm to start sharing.
-6. **Monitor Progress**: View real-time batch progress, network issue notifications, and spam restriction alerts. The tool pauses and resumes automatically during connectivity issues.
-7. **View Results**: Check the results panel for total successful shares, batches completed, total time, network issues detected, and success rate.
+ 1. **Enter Post URL**: Input a valid Facebook post URL (e.g., regular posts, video links, or group posts).
+ 2. **Specify Total Shares**: Enter the total number of shares to perform.
+ 3. **Set Shares per Batch**: Define how many shares to process simultaneously in each batch (recommended: 3-5 for stealth).
+ 4. **Set Delay Range**: Input minimum and maximum delay (in seconds) for random pauses between batches to enhance stealth.
+.5. **Confirm Configuration**: Review the summary (including masked post link for readability) and confirm to start sharing.
+ 6. **Monitor Progress**: View real-time batch progress, network issue notifications, and spam restriction alerts. The tool pauses and resumes automatically during connectivity issues.
+ 7. **View Results**: Check the results panel for total successful shares, batches completed, total time, network issues detected, and success rate.
 - **Exit**: Select **Option 4** to close the tool safely.
 - **Data Storage**: Account data and share tracking are securely stored in the `storage/` directory and protected from updates.
 

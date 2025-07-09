@@ -166,7 +166,7 @@ git clone https://github.com/sehraks/spam-sharer.git ~/spam-sharer
 cd ~/spam-sharer
 ```
 
-> [!NOTE]
+> [!IMPORTANT]
 > **Use this when**:
 > - The local project is corrupted or misconfigured.
 > - You want a fully clean start.
@@ -175,7 +175,7 @@ cd ~/spam-sharer
 > [!NOTE]  
 > Sometimes, even if you reclone it, it may not work if the repository does not have any new commits. Please wait for the developer to push an update, or check this GitHub repository for newly added commits.
 
-> [!IMPORTANT]  
+> [!CAUTION]  
 > Recloning the repository will delete all of your local `spam-sharer` files, including important files like `storage/accounts.json` and `storage/current_account.json`.  
 >  
 > If you have multiple cookies stored in `accounts.json`, all of them will be lost. Consider using this option carefully.  

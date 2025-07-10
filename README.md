@@ -165,6 +165,12 @@ git clone https://github.com/sehraks/spam-sharer.git ~/spam-sharer
 # Go to the project
 cd ~/spam-sharer
 ```
+> [!CAUTION]  
+> Recloning the repository will delete all of your local `spam-sharer` files, including important files like `storage/accounts.json` and `storage/current_account.json`.  
+>  
+> If you have multiple cookies stored in `accounts.json`, all of them will be lost. Consider using this option carefully.  
+>  
+> If you are not experiencing major issues, use the **inbuilt updater** within the app instead — it will fetch new features, bug fixes, and minor changes from the remote version without deleting your `spam-sharer` local files.
 
 > [!IMPORTANT]
 > **Use this when**:
@@ -174,13 +180,6 @@ cd ~/spam-sharer
 
 > [!NOTE]  
 > Sometimes, even if you reclone it, it may not work if the repository does not have any new commits. Please wait for the developer to push an update, or check this GitHub repository for newly added commits.
-
-> [!CAUTION]  
-> Recloning the repository will delete all of your local `spam-sharer` files, including important files like `storage/accounts.json` and `storage/current_account.json`.  
->  
-> If you have multiple cookies stored in `accounts.json`, all of them will be lost. Consider using this option carefully.  
->  
-> If you are not experiencing major issues, use the **inbuilt updater** within the app instead — it will fetch new features, bug fixes, and minor changes from the remote version without deleting your `spam-sharer` local files.
 
 ## Guidelines
 

@@ -140,7 +140,7 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
  2. **Specify Total Shares**: Enter the total number of shares to perform.
  3. **Set Shares per Batch**: Define how many shares to process simultaneously in each batch (recommended: 3-5 for stealth).
  4. **Set Delay Range**: Input minimum and maximum delay (in seconds) for random pauses between batches to enhance stealth.
-.5. **Confirm Configuration**: Review the summary (including masked post link for readability) and confirm to start sharing.
+5. **Confirm Configuration**: Review the summary (including masked post link for readability) and confirm to start sharing.
  6. **Monitor Progress**: View real-time batch progress, network issue notifications, and spam restriction alerts. The tool pauses and resumes automatically during connectivity issues.
  7. **View Results**: Check the results panel for total successful shares, batches completed, total time, network issues detected, and success rate.
 - **Exit**: Select **Option 4** to close the tool safely.

@@ -18,7 +18,7 @@ Since: July 07, 2025
 ## Version: 1.0
 Since: July 03, 2025
 
-- Added advanced user-agent rotation using `fake-useragent` for stealthy operation on Meta platforms.
+- Added advanced user-agent rotation using `fake-useragent` for stealthy operation.
 - Added seamless account management to add, switch, or manage multiple accounts, with clipboard support (requires Termux:API).
 - Added support for flexible account input via cookie strings and appstate JSON imports.
 - Added support for multiple URL types, including video links and group posts, for versatile sharing.

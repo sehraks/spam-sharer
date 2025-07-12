@@ -1,7 +1,7 @@
 <h1 align="center">SPAM SHARER</h1>
 
 <p align="center">
-  A powerful, secure tool for advanced spam sharing on Facebook platform.
+  A powerful, secure tool for advanced spam sharing on Facebook platform using Termux.
   <br />
   <br />
   <a href="https://t.me/sehraks">

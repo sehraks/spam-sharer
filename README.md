@@ -52,13 +52,16 @@ The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent u
   Automatically pauses and resumes sharing during connectivity issues, ensuring robust operation.
 
 - **Spam Restriction Detection**  
-  Detects account restrictions, stops sharing, and suggests switching accounts with recovery advice.
+  Detects account restrictions, stops sharing, saves progress, and suggests switching accounts with recovery advice.
 
 - **Batch Processing**  
   Shares posts in configurable batches with random delay ranges for efficient and stealthy operation.
 
+- **Resume Functionality**  
+  Saves progress to `storage/data/spam_sharing/resume/{content_type}_{content_id}.json` when interrupted by Ctrl+C or spam restrictions, allowing resumption of posts or videos. Resume files are automatically deleted upon successful completion.
+
 - **Enhanced UI**  
-  Features masked post links, cyan-colored delay messages, and detailed results panel with network issue tracking.
+  Features masked post links, cyan-colored delay messages, streamlined resume prompt matching input style, and detailed results panel with network issue tracking and resume status.
 
 ## Installation in Termux
 

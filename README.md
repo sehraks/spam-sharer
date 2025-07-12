@@ -9,7 +9,7 @@
   </a>
   <img src="https://img.shields.io/badge/Python-3.10+-FFD43B?style=flat-square&cacheSeconds=3600&logo=python&logoColor=white" alt="Python" />
   <a href="https://github.com/sehraks/spam-sharer/blob/main/changelogs.md">
-    <img src="https://img.shields.io/badge/Version-1.5-808080?style=flat-square&cacheSeconds=3600&logo=info&logoColor=white" alt="Version" />
+    <img src="https://img.shields.io/badge/Version-1.7-808080?style=flat-square&cacheSeconds=3600&logo=info&logoColor=white" alt="Version" />
   </a>
   <a href="https://github.com/sehraks/spam-sharer/blob/main/changelogs.md">
     <img src="https://img.shields.io/badge/Changelog-View%20Changes-00A1D6?style=flat-square&cacheSeconds=3600&logo=book&logoColor=white" alt="Changelog" />

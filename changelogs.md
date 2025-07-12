@@ -2,6 +2,16 @@
 
 All notable changes to the Spam Sharer project will be documented in this file.
 
+## Version: 1.7
+Since: July 12, 2025
+
+- Added resume functionality to save progress when interrupted by Ctrl+C or spam restriction detection, storing data in `storage/data/spam_sharing/resume/{content_type}_{content_id}.json`.
+- Added support for resuming interrupted posts or videos with a prompt to continue or start fresh.
+- Added automatic deletion of resume file upon successful completion to prevent false resume prompts.
+- Added support for both post and video URLs with specific resume file naming (`post_<id>.json` or `video_<id>.json`).
+- Updated resume prompt styling to match "Enter your link" prompt, removing panel wrapper and redundant (Y/N) input.
+- Improved interruption handling to save progress for both user-initiated (Ctrl+C) and spam restriction interruptions with consistent messaging.
+
 ## Version: 1.5
 Since: July 07, 2025
 

@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/About%20the%20Developer-Site-4CAF50?style=flat-square&cacheSeconds=3600&logo=globe&logoColor=white" alt="About the Developer" />
   </a>
   <a href="https://github.com/sehraks/spam-sharer/blob/main/changelogs.md">
-    <img src="https://img.shields.io/badge/Version-1.7-808080?style=flat-square&cacheSeconds=3600&logo=info&logoColor=white" alt="Version" />
+    <img src="https://img.shields.io/badge/Version-1.8-808080?style=flat-square&cacheSeconds=3600&logo=info&logoColor=white" alt="Version" />
   </a>
   <a href="https://github.com/sehraks/spam-sharer/blob/main/changelogs.md">
     <img src="https://img.shields.io/badge/Changelog-View%20Changes-00A1D6?style=flat-square&cacheSeconds=3600&logo=book&logoColor=white" alt="Changelog" />

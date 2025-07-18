@@ -1,6 +1,16 @@
-# Changelog
+# Changelogs
 
 All notable changes to the Spam Sharer project will be documented in this file.
+
+## Version: 1.8
+Since: July 18, 2025
+
+- Enhanced resume data structure to include `total_batch` and `successful_batch` for precise batch tracking, and renamed `count` to `total_shares` for clarity in resume JSON files.
+- Improved progress saving to occur after every successful batch, before delays, on spam restriction detection, and on process termination (SIGTERM/SIGINT) to minimize data loss.
+- Added signal handling for SIGTERM and SIGINT to save progress when Termux is killed by Android or interrupted by Ctrl+C, ensuring reliable recovery.
+- Updated resume logic to use `successful_batch` and `successful_shares` for accurate resumption, respecting `min_delay`, `max_delay`, and `shares_per_delay` from the resume file.
+- Added backward compatibility for old resume files by converting `count` to `total_shares` during loading.
+- Updated configuration summary and result panels to display `successful_batch` alongside `successful_shares` for better progress visibility.
 
 ## Version: 1.7
 Since: July 12, 2025

@@ -190,6 +190,9 @@ cd ~/spam-sharer
 ## Guidelines
 
 > [!TIP]
+> **Acquire Wake Lock**: Run `termux-wake-lock` before starting long-running tasks like spam sharing. This keeps the CPU awake, preventing Android from killing the Termux process, which ensures progress is saved reliably even if the app is swiped out or runs in the background.
+
+> [!TIP]
 > **Run Multiple Sessions**: Speed up tasks by swiping left in Termux to open new sessions and run multiple sharing tasks simultaneously!
 
 > [!IMPORTANT]

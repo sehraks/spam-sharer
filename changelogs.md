@@ -7,7 +7,6 @@ Since: July 19, 2025
 
 - Fixed incorrect batch counting in resume logic to prevent batch numbers exceeding total batches (e.g., `Batch 66/60`), ensuring `total_batch` is calculated as `ceil(total_shares / shares_per_delay)`.
 - Improved resume data validation in `_load_resume_data` to cap `successful_batch` at `ceil(successful_shares / shares_per_delay)` and recalculate `total_batch` for consistency.
-- Corrected `resume.json` structure to align `successful_batch` (e.g., 63 for 315 shares with 5 shares per delay) and `total_batch` (e.g., 100 for 500 shares) with actual progress.
 - Updated batch tracking in `main_sharing` to increment `current_batch` after successful batch completion, ensuring accurate display (e.g., `Batch 64/100`).
 - Enhanced configuration summary to reflect correct `total_batch` and estimated time based on remaining batches (`total_batch - successful_batch`).
 - Improved reliability of progress saving by ensuring `successful_batch` and `total_batch` are consistently updated in `resume.json` during interruptions or restrictions.

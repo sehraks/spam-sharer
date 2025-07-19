@@ -214,7 +214,7 @@ cd ~/spam-sharer
 
 ## For other issues
 
-Open a [GitHub issue](https://github.com/sehraks/spam-sharer/issues) or [DM on Facebook](https://www.facebook.com/zackyne).
+Open a [GitHub issue](https://github.com/sehraks/spam-sharer/issues) or [Message me on Telegram](https://t.me/sehraks).
 
 ## Requirements
 

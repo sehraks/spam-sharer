@@ -11,7 +11,7 @@ Since: July 19, 2025
 - Updated batch tracking in `main_sharing` to increment `current_batch` after successful batch completion, ensuring accurate display (e.g., `Batch 64/100`).
 - Enhanced configuration summary to reflect correct `total_batch` and estimated time based on remaining batches (`total_batch - successful_batch`).
 - Improved reliability of progress saving by ensuring `successful_batch` and `total_batch` are consistently updated in `resume.json` during interruptions or restrictions.
-- Fixed the MarkupError regarding the closing tag in the `spam_detected`
+- Fixed the MarkupError regarding the closing tag in the `spam_detected`.
 
 ## Version: 1.8
 Since: July 18, 2025

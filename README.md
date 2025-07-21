@@ -224,3 +224,9 @@ See `requirements.txt` for Python dependencies:
 - `aiohttp>=3.9.5`  
 - `fake-useragent>=1.5.1`
 - `requests>=2.31.0`
+
+## License
+
+This project is licensed under a Custom License Agreement. See the [license](https://github.com/sehraks/spam-sharer/blob/main/LICENSE.md) file for details.
+
+**Note**: This software is proprietary and subject to specific terms and conditions.

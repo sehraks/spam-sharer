@@ -70,7 +70,7 @@ The `Spam-Sharer` code is obfuscated to protect its internal logic and prevent u
 
 Get `Spam-Sharer` up and running in just a few steps:
 
-1. **Install Termux and Termux:API**  
+1. **Install Termux** and **Termux:API**  
    Download **Termux** and **Termux:API** from the [Google Play Store](https://play.google.com/store/apps/details?id=com.termux) or [F-Droid](https://f-droid.org/packages/com.termux/).
 
 2. **Update Termux and Install Dependencies**  
@@ -121,14 +121,15 @@ Run `Spam-Sharer` with a single `fbs` command from anywhere in Termux:
    ```bash
    alias fbs='cd ~/spam-sharer && python3 main.py'
    ```  
-   Save (`Ctrl+S`) and exit (`Ctrl+Q`).
+   Save (`Ctrl+S`)
+   Exit (`Ctrl+Q`)
 
-3. **Apply the Alias**  
+4. **Apply the Alias**  
    ```bash
    source ~/.bashrc
    ```
 
-4. **Test the Shortcut**  
+5. **Test the Shortcut**  
    Run `fbs` from any directory to start `Spam-Sharer`.
 
 > [!NOTE]

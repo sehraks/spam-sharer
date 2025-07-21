@@ -2,6 +2,15 @@
 
 All notable changes to the Spam Sharer project will be documented in this file.
 
+## Version: 2.0
+Since: July 21, 2025
+
+- Added internet connection detection in `update.py` using the `requests` library to check connectivity to `https://www.google.com` with a 5-second timeout.
+- Implemented handling for no internet connection, displaying a yellow panel and prompting the user to press Enter to return to the main menu.
+- Enhanced error handling in `check_internet_connection` to catch `requests.exceptions.RequestException`, including timeout errors (e.g., `HTTPSConnectionPool... Read timed out`), ensuring consistent no-internet messaging.
+- Added logging of internet check failures, including timeout errors, to `update_log.txt` for debugging and tracking.
+- Ensured seamless return to the main menu after no-internet prompts using `main_instance.show_menu()` when available, with fallback for standalone execution.
+
 ## Version: 1.9
 Since: July 19, 2025
 

@@ -223,3 +223,4 @@ See `requirements.txt` for Python dependencies:
 - `rich>=13.7.1`  
 - `aiohttp>=3.9.5`  
 - `fake-useragent>=1.5.1`
+- `requests>=2.31.0`

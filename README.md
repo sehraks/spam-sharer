@@ -1,3 +1,6 @@
+> [!WARNING]
+Project Deprecation Notice: This project is no longer actively maintained and has become outdated. Due to Facebook's frequent updates and changes to their platform structure, the tool may no longer work as intended, could fail entirely, or may even result in account restrictions. It is strongly recommended to avoid using this project for any purpose. Proceed at your own risk.
+
 <h1 align="center">SPAM SHARER</h1>
 
 <p align="center">

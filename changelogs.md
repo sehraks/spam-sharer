@@ -2,6 +2,15 @@
 
 All notable changes to the Spam Sharer project will be documented in this file.
 
+## Version: 2.1
+Since: March 9, 2026
+
+- **Fixed critical token extraction issue** in `spam_sharing.py` (`get_token` method).
+- Updated URLs to current working endpoints (business.facebook.com, adsmanager, etc.) that Meta uses in 2026.
+- Strengthened regex patterns to reliably catch EAAG/EAAaG tokens even after Meta’s latest frontend changes.
+- Added real-time console feedback during token search and a much clearer failure message with 2026-specific fixes.
+- This resolves the “❕ Failed to get access token: No token found in any response” error for fresh cookies.
+
 ## Version: 2.0
 Since: July 21, 2025
 

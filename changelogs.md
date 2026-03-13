@@ -2,6 +2,18 @@
 
 All notable changes to the Spam Sharer project will be documented in this file.
 
+## Version: 2.2
+Since: March 13, 2026
+
+- Added support for Facebook short share links (`facebook.com/share/...`) in `spam_sharing.py`, alongside the existing post and video URL formats.
+- Replaced simultaneous batch requests (`asyncio.gather`) with sequential per-request execution to better mimic human behavior and reduce automation detection.
+- Added human-like micro-delays (1.5–4.5 seconds) between individual shares within a batch.
+- Randomized request headers per share (user-agent, `sec-ch-ua`, platform, accept-language) instead of reusing a single header set for the entire batch.
+- Added realistic browser headers (`origin`, `referer`, `sec-fetch-dest`, `sec-fetch-mode`, `sec-fetch-site`, `accept-encoding`, `content-type`) to Graph API requests.
+- Added `_get_graph_api_params` method to occasionally vary optional API parameters (`locale`, `sdk`) for less predictable request fingerprints.
+- Fixed `MarkupError` crash in `main.py` when pressing CTRL+C — error messages containing square brackets (e.g. `[Errno 2]`) are now escaped before being passed to Rich.
+- Added fallback to plain `print()` in the exception handlers in case Rich itself fails during error display.
+
 ## Version: 2.1
 Since: March 9, 2026
 
